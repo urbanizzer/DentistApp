@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:id="@+id/relativeLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/doctor_icon"
+        android:id="@+id/ProfileImage"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:fontFamily="casual"
+             android:textSize="15sp"
+             android:textColor="#000000"
+             android:layout_alignLeft="@+id/ProfileImage"
+             android:layout_marginStart="60dp"
+             android:layout_marginTop="10dp"
+             android:id="@+id/docterName"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:layout_below="@+id/docterName"
+            android:layout_alignLeft="@+id/ProfileImage"
+            android:text="@string/Speciality"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/docterSpeciality"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:layout_below="@+id/docterName"
+            android:layout_alignLeft="@+id/docterSpeciality"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/docterSpecialityData"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:layout_below="@+id/docterSpeciality"
+            android:layout_alignLeft="@+id/ProfileImage"
+            android:text="@string/Experience"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/docterExperience"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:layout_below="@+id/docterSpeciality"
+            android:layout_alignLeft="@+id/docterExperience"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/docterExperienceData"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:layout_below="@+id/docterExperience"
+            android:layout_alignLeft="@+id/ProfileImage"
+            android:text="@string/Timing"
+            android:maxWidth="90dp"
+            android:singleLine="false"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/docterTiming"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:layout_below="@+id/docterExperience"
+            android:layout_alignLeft="@+id/docterTiming"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/docterTimingData"/>
+
+    </RelativeLayout>

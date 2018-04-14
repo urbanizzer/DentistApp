@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DentistApp</string>
+    <string name="Username">Username</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="CreateAccount">Create Account</string>
+    <string name="Login">Login</string>
+    <string name="Signup">Signup</string>
+    <string name="ChooseYourLocation">Choose Your Location</string>
+    <string name="DefaultLocation">Salmiya</string>
+    <string name="Continue">Continue</string>
+    <string name="ChooseSpeciality">Choose A Speciality</string>
+    <string name="ChooseProcedure">Choose A Procedure</string>
+    <string name="Speciality">Speciality:</string>
+    <string name="Experience">Experience:</string>
+    <string name="Timing">Timing:</string>
+    <string name="underGraduate">UnderGraduate:</string>
+    <string name="Graduate">Graduate:</string>
+    <string name="AboutMe">About Me:</string>
+</resources>

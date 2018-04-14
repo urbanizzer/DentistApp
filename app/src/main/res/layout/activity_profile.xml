@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/doctor_icon"
+        android:id="@+id/ProfileImage"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ProfileImage"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:fontFamily="casual"
+        android:text="Example"
+        android:id="@+id/doctorName"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctorName"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        android:fontFamily="casual"
+        android:text="@string/Speciality"
+        android:id="@+id/doctorSpeciality"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctorName"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/doctorSpeciality"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        android:fontFamily="casual"
+        android:text="Example"
+        android:id="@+id/doctorSpecialitydata"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctorName"
+        android:layout_toLeftOf="@id/doctorExperienceData"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:fontFamily="casual"
+        android:text="@string/Experience"
+        android:id="@+id/doctorExperience"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctorName"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:fontFamily="casual"
+        android:text="Example"
+        android:id="@+id/doctorExperienceData"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctorSpeciality"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        android:fontFamily="casual"
+        android:text="@string/underGraduate"
+        android:id="@+id/doctorUndergraduate"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctorSpeciality"
+        android:layout_toRightOf="@id/doctorUndergraduate"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        android:fontFamily="casual"
+        android:text="Example"
+        android:singleLine="false"
+        android:maxLines="2"
+        android:id="@+id/doctorUndergraduateData"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctorUndergraduate"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        android:fontFamily="casual"
+        android:text="@string/Graduate"
+        android:id="@+id/doctorGraduate"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctorUndergraduate"
+        android:layout_toRightOf="@id/doctorGraduate"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        android:fontFamily="casual"
+        android:text="Example"
+        android:singleLine="false"
+        android:maxLines="2"
+        android:id="@+id/doctorGraduateData"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/doctorGraduate"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:fontFamily="casual"
+        android:text="@string/Timing"
+        android:id="@+id/doctorTimming"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/doctorTimming"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:fontFamily="casual"
+        android:text="Example"
+        android:id="@+id/doctorTimmingData"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/doctorTimmingData"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:maxLines="3"
+        android:singleLine="false"
+        android:fontFamily="casual"
+        android:text="@string/AboutMe"
+        android:id="@+id/doctorIntroduction"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/doctorIntroduction"
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:fontFamily="casual"
+        android:text="Example"
+        android:id="@+id/doctorIntroductionData"/>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/call_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/CallButton"/>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/mail_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:hint="Email"
+        android:layout_marginRight="20dp"
+        android:id="@+id/EmailButton"/>
+
+</RelativeLayout>
